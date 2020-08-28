@@ -1,0 +1,34 @@
+{
+  "titleNView": {
+    "searchInput": {
+      "align": "center",
+      "backgroundColor": "#F7F7F7",
+      "borderRadius": "4upx",
+      "placeholder": "搜索:",
+      "placeholderColor": "#CCCCCC"
+    },
+    "buttons": [
+      {
+        "color": "#FF9619",
+        "colorPressed": "#BBBBBB",
+        "fontSize": "30px",
+        "float": "left",
+        "fontSrc": "./static/icon.ttf",
+        "text": ""
+      },
+      {
+        "color": "black",
+        "colorPressed": "#BBBBBB",
+        "fontSize": "30px",
+        "float": "right",
+        "fontSrc": "./static/icon.ttf",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {
+    "newslist": "/components/index/news-list",
+    "tabbar": "/components/index/tab-bar",
+    "nothing": "/components/common/nothing"
+  }
+}

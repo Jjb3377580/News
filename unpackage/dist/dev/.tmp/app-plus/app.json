@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/paper/paper",
+    "pages/news/news",
+    "pages/searcj/searcj",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "邹哥哥的页面",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "color": "#000000",
+    "selectedColor": "#ffff7f",
+    "height": "70upx",
+    "fontSize": "16px",
+    "iconWidth": "35px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/homeed.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "iconPath": "static/tabbar/ling.png",
+        "selectedIconPath": "static/tabbar/linged.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/tabbar/news.png",
+        "selectedIconPath": "static/tabbar/newsed.png",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabbar/me.png",
+        "selectedIconPath": "static/tabbar/meed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "News",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}

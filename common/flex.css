@@ -1,0 +1,19 @@
+.df,.df-jsb,.df-jsb-ac,.df-ac,.df-ac-jc{
+	display: flex;
+}
+
+.df-ac-jc{
+	justify-content: center;	/* 子标签居中 */
+}
+
+.df-jsb,.df-jsb-ac{
+	justify-content: space-between;	/* 横向排列,子标签居左、居右 */
+}
+
+.df-jsb-ac,.df-ac{
+	align-items: center;
+}
+
+.df-ac-jc,.df-jsb-ac,.df-ac{
+	align-items: center; /* 垂直居中 */
+}

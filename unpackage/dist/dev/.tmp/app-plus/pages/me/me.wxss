@@ -1,0 +1,130 @@
+
+.me-list {
+	margin: 20rpx;
+}
+.me-list1 {
+	font-size: 32rpx;
+	text-align: center;
+}
+.me-list2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 40rpx;
+}
+
+/* 图标的布局 */
+.me-list2>view {
+	padding: 30rpx 48rpx 30rpx 53rpx;
+	font-size: 50rpx;
+}
+
+/* 第一个图标 */
+.me-list2>view:nth-child(1){
+	background-color: #5ddf87;
+	border-radius: 50%;
+	color: #FFFFFF;
+}
+
+/* 第二个图标 */
+.me-list2>view:nth-child(2){
+	background-color: #00aaff;
+	border-radius: 50%;
+	color: #FFFFFF;
+}
+
+/* 第三个图标 */
+.me-list2>view:nth-child(3){
+	background-color: #ff860c;
+	border-radius: 50%;
+	color: #FFFFFF;
+}
+.me-list3 {
+	font-size: 28rpx;
+	color: #3F536E;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-right: 36%;
+	padding-left: 35%;
+	margin-top: 80rpx;
+}
+.me-list4 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 50rpx;
+}
+.me-list4>view {
+	text-align: center;
+}
+.me-list5>image {
+	width: 100%;
+	height: 350rpx;
+}
+.me-list6 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 24rpx;
+	padding-top: 20rpx;
+}
+.me-list6>view {
+	color: #007AFF;
+}
+.me-list7 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 24rpx;
+	padding-top: 20rpx;
+}
+.me-list7>view {
+	color: #DD524D;
+}
+

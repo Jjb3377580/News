@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"News","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"titleNView":{"searchInput":{"align":"center","backgroundColor":"#F7F7F7","borderRadius":"4upx","placeholder":"搜索:","placeholderColor":"#CCCCCC"},"buttons":[{"color":"#FF9619","colorPressed":"#BBBBBB","fontSize":"30px","float":"left","fontSrc":"./static/icon.ttf","text":""},{"color":"black","colorPressed":"#BBBBBB","fontSize":"30px","float":"right","fontSrc":"./static/icon.ttf","text":""}]},"usingComponents":{"newslist":"/components/index/news-list","tabbar":"/components/index/tab-bar","nothing":"/components/common/nothing"}}},"pages/me/me.html":{"window":{"navigationBarTitleText":"我","usingComponents":{}}},"pages/paper/paper.html":{"window":{"usingComponents":{}}},"pages/news/news.html":{"window":{"usingComponents":{}}},"pages/searcj/searcj.html":{"window":{"usingComponents":{}}},"pages/search/search.html":{"window":{"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"邹哥哥的页面","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#000000","selectedColor":"#ffff7f","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/tabbar/home.png","selectedIconPath":"static/tabbar/homeed.png","text":"主页"},{"pagePath":"pages/paper/paper.html","iconPath":"static/tabbar/ling.png","selectedIconPath":"static/tabbar/linged.png","text":"动态"},{"pagePath":"pages/news/news.html","iconPath":"static/tabbar/news.png","selectedIconPath":"static/tabbar/newsed.png","text":"新闻"},{"pagePath":"pages/me/me.html","iconPath":"static/tabbar/me.png","selectedIconPath":"static/tabbar/meed.png","text":"我的"}],"position":"bottom","height":"70upx","fontSize":"16px","iconWidth":"35px"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/me/me","pages/paper/paper","pages/news/news","pages/searcj/searcj","pages/search/search"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.2.2","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

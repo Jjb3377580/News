@@ -1,0 +1,240 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 新闻大框 */
+.index-list.data-v-3f0c075a {
+	padding: 20rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+/* 第一行 */
+.index-list1.data-v-3f0c075a{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+/* 第一行文字 */
+.index-list1>view.data-v-3f0c075a {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+/*第一行图片头像*/
+.index-list1>view:first-child image.data-v-3f0c075a {
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 50%;
+	margin-right: 16rpx;
+}
+/*第一行 右边*/
+.index-list1>view.data-v-3f0c075a:first-child {
+	color: #989898;
+}
+/*第一行 右边*/
+.index-list1>view.data-v-3f0c075a:last-child {
+	background: #CCCCCC;
+	border-radius: 4rpx;
+	padding-left: 16rpx;
+	padding-right: 16rpx;
+}
+/* 第二行 */
+.index-list2.data-v-3f0c075a {
+	margin-top: 16rpx;
+	font-size: 32rpx;
+}
+/* 第三行 */
+.index-list3.data-v-3f0c075a {
+	margin-top: 20rpx;
+	position: relative;
+}
+/*第三行 播放按钮*/
+.icon-bofang.data-v-3f0c075a {
+	position: absolute;
+	font-size: 150rpx;
+	color: #FFFFFF;
+	top: 18%;
+	left: 40%
+}
+/*第三行 播放时长、播放量*/
+.index-list3>view.data-v-3f0c075a:nth-of-type(2) {
+	position: absolute;
+	background: #000000;
+	border-radius: 40rpx;
+	color: #FFFFFF;
+	right: 20rpx;
+	bottom: 30rpx;
+	font-size: 24rpx;
+	padding-left: 16rpx;
+	padding-right: 16rpx;
+	opacity: 0.7;
+}
+/*第三行图片*/
+.index-list3>image.data-v-3f0c075a {
+	width: 100%;
+	border-radius: 20rpx;
+}
+/*第四行 笑脸哭脸   评论转发*/
+.index-list4>view>view>view.data-v-3f0c075a {
+	font-size: 26rpx;
+	margin-right: 14rpx;
+	margin-left: 14rpx;
+}
+.active.data-v-3f0c075a {
+	color: #FFB400;
+}
+
+

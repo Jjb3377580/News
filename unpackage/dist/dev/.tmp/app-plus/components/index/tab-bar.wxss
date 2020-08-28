@@ -1,0 +1,68 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 顶部选项卡 */
+/*导航条激活点击状态*/
+.uni-tad-bar.active.data-v-3edc0a16 {
+	color: #8F8F94;
+}
+/*导航字体*/
+.swiper-tab-list.data-v-3edc0a16 {
+	color: #969696;
+	font-weight: bold;
+}
+/*导航边框颜色*/
+.uni-swiper-tab.data-v-3edc0a16 {
+	border-bottom: 1rpx solid #EEEEEE;
+}
+/*激活时候才有黄色条样式*/
+.active .swiper-tab-bottom.data-v-3edc0a16 {
+	border-bottom: 6rpx solid #FFA411;
+	width: 70rpx;
+	margin: 0 auto;
+	border-radius: 20rpx;
+}
+
+
+
+
