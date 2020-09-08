@@ -1,2 +1,2 @@
 # News
-一个普通的uniapp
+基于vue开发的uni-app安卓项目
